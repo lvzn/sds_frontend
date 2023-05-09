@@ -1,3 +1,5 @@
+@import 'config';
+@import 'menu';
 
 * {
     box-sizing: border-box;
@@ -9,11 +11,12 @@ body {
     color: #fff;
     height: 100%;
     margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
 }
 
 //headings
+
 h1,
 h2,
 h3 {
@@ -57,8 +60,10 @@ main {
         margin-top: 1rem;
         margin-bottom: 3rem;
         display: flex;
+
         a {
             margin: 0 1.5rem;
+
             &:hover {
                 color: $secondary-color;
                 @include easeOut;
@@ -68,6 +73,7 @@ main {
 
     &#home {
         overflow: hidden;
+
         h1 {
             margin-top: 20vh;
         }
