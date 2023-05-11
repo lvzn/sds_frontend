@@ -1,7 +1,7 @@
 $primary-color: #3a3a3a;
 $secondary-color: #ca9341;
 $show-home-image: true;
-$home-image: url('../../img/background.jpg');
+$home-image: url('../img/background.jpg');
 $background-opacity: 0.8;
 
 @mixin background {
